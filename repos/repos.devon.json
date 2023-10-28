@@ -2,12 +2,12 @@
   {
     "kernelSource": {
       "name": "tao-KernelSU-Proton-release",
-      "repo": "https://github.com/taotaoS2/android_kernel_moba",
-      "branch": "4.19.81",
-      "device": "moba",
-      "defconfig": "moba_defconfig"
+      "repo": "https://github.com/LineageOS/android_kernel_motorola_sm6225",
+      "branch": "lineage-21",
+      "device": "devon",
+      "defconfig": "/vendor/bengal_defconfig"
     },
-    "withKernelSU": false,
+    "withKernelSU": true,
     "toolchains": [
       {
         "repo": "https://github.com/kdrag0n/proton-clang",
@@ -37,7 +37,7 @@
       }
     },
     "AnyKernel3": {
-      "use": true,
+      "use": false,
       "release": true,
       "repo": "https://github.com/taotaoS2/AnyKernel3/",
       "branch": "moba"
