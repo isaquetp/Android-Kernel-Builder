@@ -1,11 +1,11 @@
 [
   {
     "kernelSource": {
-      "name": "tao-KernelSU-Proton-release",
+      "name": "tao-Kernel",
       "repo": "https://github.com/taotaoS2/android_kernel_moba",
       "branch": "4.19.81",
       "device": "moba",
-      "defconfig": "moba_defconfig"
+      "defconfig": "vendor/moba_defconfig"
     },
     "withKernelSU": false,
     "toolchains": [
